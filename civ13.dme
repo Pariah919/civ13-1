@@ -952,5 +952,5 @@
 #include "code\processes\zoom\zoom_scopes.dm"
 #include "interface\interface.dm"
 #include "interface\skin.dmf"
-#include "maps\nomads\nomads_persistence_beta.dmm"
+#include "maps\special\gov_bunker_wasteland.dmm"
 // END_INCLUDE
