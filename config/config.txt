@@ -142,12 +142,12 @@ USE_JOB_WHITELIST
 #WEBSITEURL http://civ13.com/
 
 ##Github address
-#GITHUBURL https://github.com/civ13/civ13/
+GITHUBURL https://github.com/InterGrimm/civ13
 
 ##Github repo id
 ##This can be found by going to https://api.github.com/users/<user name here>/repos
 ##Or https://api.github.com/orgs/<org name here>/repos if the repo owner is an organization 
-# GITHUBREPOID 3234987
+GITHUBREPOID 285472749
 
 ## Ban appeals URL - usually for a forum or wherever people should go to contact your admins.
 # BANAPPEALS https://discord.gg/hBEtg4x
