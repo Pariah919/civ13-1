@@ -124,22 +124,22 @@ USE_JOB_WHITELIST
 
 ## set a server location for world reboot. Don't include the byond://, just give the address and port.
 # Don't set this to the same server, BYOND will automatically restart players to the server when it has restarted.
-#SERVER 192.210.161.174:23999
+#SERVER
 
 ## donation address
-#DONATIONURL https://www.patreon.com/1713ad
+#DONATIONURL
 
 ## rules address
-#RULESURL http://civ13.com/wiki/index.php?title=Rules
+#RULESURL
 
 ## discord address
-#DISCORDURL https://discord.gg/hBEtg4x
+#DISCORDURL
 
 ## Wiki address
-#WIKIURL http://civ13.com/wiki/index.php/Main_Page
+#WIKIURL
 
 ## Website address
-#WEBSITEURL http://civ13.com/
+#WEBSITEURL
 
 ##Github address
 GITHUBURL https://github.com/InterGrimm/civ13
