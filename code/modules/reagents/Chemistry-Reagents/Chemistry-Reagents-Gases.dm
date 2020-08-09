@@ -166,6 +166,7 @@ var/mob/living/human/next_gas_flesh_message = -1
 		external_damage(L, get_severity(amount))
 		internal_damage(L, get_severity(amount))
 		open_wound_damage(L, get_severity(amount))
+
 /datum/reagent/toxin/mustard_gas/white_phosphorus
 	name = "White Phosphorus Gas"
 	id = "white_phosphorus_gas"
@@ -181,6 +182,10 @@ var/mob/living/human/next_gas_flesh_message = -1
 		eye_damage(L, get_severity(amount)*3)
 		external_damage(L, get_severity(amount)*3)
 		open_wound_damage(L, get_severity(amount)*3)
+		L.Weaken(1)
+		if (prob(10))
+			L.emote("cough")
+
 //green cross
 /datum/reagent/toxin/chlorine_gas
 	name = "Chlorine Gas"

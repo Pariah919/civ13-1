@@ -222,3 +222,13 @@
 		chambered = AC
 
 	update_icon()
+
+//M870 - Same thing just better.
+/obj/item/weapon/gun/projectile/shotgun/remington870/mcs
+	name = "MCS M870"
+	desc = "A pump-action shotgun with 12 gauge greatness."
+	max_shells = 7
+	w_class = 4.0
+	force = 15
+	move_delay = 2
+	load_delay = 3

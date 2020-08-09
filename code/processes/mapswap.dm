@@ -88,8 +88,8 @@
 
 /process/mapswap
 	// map = required players
-	var/list/maps = list(MAP_CURSED_ISLAND = 0,)
-	var/epoch = "Imperial Age (1650-1780)"
+	var/list/maps = list(MAP_WASTELAND = 0)
+	var/epoch = "Modern Era (1985-2020)"
 	var/ready = TRUE
 	var/admin_triggered = FALSE
 	var/finished_at = -1
@@ -116,6 +116,7 @@
 				MAP_HOSTAGES = 0,
 				MAP_ARAB_TOWN = 0,
 				MAP_ARAB_TOWN_2 = 0,
+//				MAP_WASTELAND = 0,
 			)
 		else if (epoch == "Cold War Era (1949-1984)")
 	// 1969 - TDM
@@ -157,7 +158,7 @@
 		else if (epoch == "Imperial Age (1650-1780)")
 		//1713 - TDM
 			maps = list(
-//				MAP_CURSED_ISLAND = 0,
+				MAP_CURSED_ISLAND = 0,
 				MAP_NAVAL = 0,
 				MAP_ISLAND = 0,
 		//		MAP_VOYAGE = 10,

@@ -436,6 +436,17 @@
 	speedlist = list(1=7,2=5.5,3=4.5,4=3.5)
 	turntimer = 9
 
+/obj/structure/vehicleparts/axis/car/stryker
+	name = "M1135 NBCRV"
+	speeds = 5
+	maxpower = 2400
+	speedlist = list(1=8,2=6,3=4,4=3,5=2)
+	turntimer = 8
+	color = "#293822"
+	New()
+		..()
+		spawn(40)
+			map.vehicle_registations += list(list("[reg_number]","23rd Chemical Battalion", "22d Chemical Battalion", ""))
 
 /obj/structure/vehicleparts/axis/car/volle/ambulance
 	name = "Ubermacht Volle KW Ambulance"

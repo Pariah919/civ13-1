@@ -1,5 +1,5 @@
 /mob/living/simple_animal/pachy
-	icon = 'icons/mob/animal_64.dmi'
+	icon = 'icons/mob/animal_big.dmi'
 	name = "Pachycephalosaurus"
 	desc = "Pachy for short. Looks friendly"
 	icon_state = "pachycephalosaurus"

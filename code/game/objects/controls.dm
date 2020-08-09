@@ -24,6 +24,11 @@
 	not_movable = TRUE
 	not_disassemblable = TRUE
 
+/obj/structure/blastcontrol/keypad
+	name = "control keypad"
+	icon = 'icons/obj/doors/locks.dmi'
+	icon_state = "keypad"
+
 /obj/structure/gatecontrol/sandstone
 	name = "gate control"
 
@@ -112,7 +117,7 @@
 /obj/structure/blast
 	name = "blast door"
 	desc = "An thick steel blast door."
-	icon = 'icons/obj/doors/material_doors.dmi'
+	icon = 'icons/obj/doors/material_doors_leonister.dmi'
 	icon_state = "blast0"
 	anchored = TRUE
 	density = TRUE

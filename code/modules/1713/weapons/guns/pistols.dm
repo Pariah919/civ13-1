@@ -295,6 +295,32 @@
 		icon_state = "p220_open"
 	return
 
+//M17
+/obj/item/weapon/gun/projectile/pistol/m17
+	name = "SIG Sauer M17"
+	desc = "The SIG Sauer M17 is a semi-automatic pistol. Designed in 2017."
+	icon_state = "p220"
+	fire_delay = 2.0
+	w_class = 2
+	caliber = "a9x19"
+	fire_sound = 'sound/weapons/guns/fire/45ACP.ogg'
+	magazine_type = /obj/item/ammo_magazine/m17
+	weight = 0.594
+	max_shells = 17
+	ammo_type = /obj/item/ammo_casing/a45
+	load_method = MAGAZINE
+	handle_casings = EJECT_CASINGS
+	effectiveness_mod = 1.40
+
+/obj/item/weapon/gun/projectile/pistol/m17/update_icon()
+	..()
+	if (ammo_magazine)
+		icon_state = "p220"
+	else
+		icon_state = "p220_open"
+	return
+
+
 /obj/item/weapon/gun/projectile/pistol/iogb7
 	name = "IOQ B-72"
 	desc = "Some retarded fake shit invented by Re1taz."

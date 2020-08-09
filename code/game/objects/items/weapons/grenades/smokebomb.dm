@@ -144,6 +144,13 @@
 	name = "white phosphorus gas grenade"
 	stype = /datum/effect/effect/system/smoke_spread/bad/chem/payload/white_phosphorus_gas
 
+/obj/item/weapon/grenade/chemical/white_phosphorus
+	name = "white phosphorus gas grenade"
+	stype = /datum/effect/effect/system/smoke_spread/bad/chem/payload/white_phosphorus_gas
+
+/obj/item/weapon/grenade/chemical/white_phosphorus/m34
+	name = "M34 WP"
+
 /obj/item/weapon/grenade/chemical/xylyl_bromide
 	name = "xylyl bromide gas grenade"
 	stype = /datum/effect/effect/system/smoke_spread/bad/chem/payload/xylyl_bromide

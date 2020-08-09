@@ -256,7 +256,7 @@ Current Defines (_defines/attachment.dm)
 
 /obj/item/weapon/attachment/bayonet/military
 	force = 65
-//	weakens = 1
+	weakens = 1
 	weight = 0.450
 	value = 12
 

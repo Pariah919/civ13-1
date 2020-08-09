@@ -403,6 +403,15 @@
 	keyslot_type = /datum/keyslot/soviet/guard
 	unique_door_name = "GULAG locked"
 
+/obj/structure/simple_door/key_door/soviet/blast
+	material = "steel"
+	name = "Blast Door"
+	unique_door_name = "Blast door"
+	icon_state = "blast"
+	keyslot_type = /datum/keyslot/soviet/guard
+	unique_door_name = "GULAG locked"
+	health = 900000
+
 /obj/structure/simple_door/key_door/soviet/guard/max
 	keyslot_type = /datum/keyslot/soviet/guard/max
 	unique_door_name = "Maximum Security locked"

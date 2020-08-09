@@ -1374,6 +1374,17 @@ obj/item/clothing/head/ww2/chicap2
 	new/obj/item/ammo_magazine/mg34(src)
 	new/obj/item/ammo_magazine/mg34(src)
 
+/obj/item/weapon/storage/ammo_can/m249
+/obj/item/weapon/storage/ammo_can/m249/New()
+	..()
+	new/obj/item/ammo_magazine/m249(src)
+	new/obj/item/ammo_magazine/m249(src)
+	new/obj/item/ammo_magazine/m249(src)
+	new/obj/item/ammo_magazine/m249(src)
+	new/obj/item/ammo_magazine/m249(src)
+	new/obj/item/ammo_magazine/m249(src)
+
+
 /obj/item/clothing/under/ww2/soviet
 	name = "soviet uniform"
 	desc = "A soviet uniform, used by infantry in the red army."

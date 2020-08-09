@@ -122,6 +122,9 @@
 	desc = "Achtung! Minen."
 	icon_state = "minefield"
 
+/obj/structure/sign/minefield/english
+	desc = "Danger! Mines!"
+
 /obj/structure/sign/exit/New()
 	..()
 	if (dir == WEST)

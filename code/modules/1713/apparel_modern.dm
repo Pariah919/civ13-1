@@ -282,6 +282,16 @@
 	item_state = "lwh_black"
 	worn_state = "lwh_black"
 
+/obj/item/clothing/head/helmet/modern/ech
+	name = "black ECH helmet"
+	desc = "A typical US Army ECH helmet. This one is a bland black."
+	icon_state = "lwh_black"
+	item_state = "lwh_black"
+	worn_state = "lwh_black"
+	body_parts_covered = HEAD
+	flags_inv = BLOCKHEADHAIR
+	armor = list(melee = 85, arrow = 65, gun = 65, energy = 15, bomb = 55, bio = 20, rad = FALSE)
+
 /obj/item/clothing/head/helmet/modern/sovietfacehelmet
 	name = "K6 helmet"
 	desc = "A russian heavy armoured helmet."
