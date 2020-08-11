@@ -6,7 +6,7 @@ macro "macro"
 		name = "Center+REP"
 		command = ".center"
 	elem 
-		name = "CTRL+Escape"
+		name = "SHIFT+Escape"
 		command = "updateFullscreen"
 	elem 
 		name = "Space"
@@ -128,7 +128,7 @@ macro "hotkeymode"
 		name = "Center+REP"
 		command = ".center"
 	elem 
-		name = "CTRL+Escape"
+		name = "SHIFT+Escape"
 		command = "updateFullscreen"
 	elem 
 		name = "Space"
