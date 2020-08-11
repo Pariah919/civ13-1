@@ -6,7 +6,7 @@ macro "macro"
 		name = "Center+REP"
 		command = ".center"
 	elem 
-		name = "Escape"
+		name = "CRTL+Escape"
 		command = "updateFullscreen"
 	elem 
 		name = "Space"
