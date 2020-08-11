@@ -93,6 +93,12 @@ macro "macro"
 		name = "CTRL+SHIFT+G"
 		command = ".configure graphics-hwmode on"
 	elem 
+		name = "L"
+		command = "looc"
+	elem "ooc"
+		name = "O"
+		command = "ooc"
+	elem 
 		name = "CTRL+Q"
 		command = ".northwest"
 	elem 
@@ -110,12 +116,6 @@ macro "macro"
 	elem 
 		name = "CTRL+SHIFT+F1+REP"
 		command = ".options"
-	elem "ooc"
-		name = "F4"
-		command = "ooc"
-	elem 
-		name = "F5"
-		command = "looc"
 	elem 
 		name = "F12"
 		command = "ChangeHUD"
@@ -257,11 +257,17 @@ macro "hotkeymode"
 		name = "CTRL+J"
 		command = "toggle-gun-mode"
 	elem 
+		name = "L"
+		command = "looc"
+	elem 
 		name = "M"
 		command = "m-intent-run"
 	elem 
 		name = "N"
 		command = "tactic-intent"
+	elem "ooc"
+		name = "O"
+		command = "ooc"
 	elem 
 		name = "Q"
 		command = ".northwest"
@@ -337,12 +343,6 @@ macro "hotkeymode"
 	elem 
 		name = "F3"
 		command = "asay"
-	elem "ooc"
-		name = "F4"
-		command = "ooc"
-	elem 
-		name = "F5"
-		command = "looc"
 	elem 
 		name = "F6"
 		command = ".me"
